@@ -1,8 +1,7 @@
 import datetime
 
-today = datetime.date
-now = datetime.time
+now = datetime.datetime.now()
 
 print("Hello World")
-print(today)
-print(time)
+print(str(now.day) + '/' + str(now.month) + '/' + str(now.year))
+print(str(now.hour) + ':' + str(now.minute) + ':' + str(now.second))
